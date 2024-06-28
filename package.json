@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-table2",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "private": true,
   "description": "Rebuilt for react-bootstrap-table",
   "main": "index.js",
@@ -39,7 +39,7 @@
     "url": "https://github.com/BonnierNews/react-bootstrap-table2/issues"
   },
   "engines": {
-    "node": ">=16 <=18"
+    "node": ">=16 <=22"
   },
   "homepage": "https://github.com/BonnierNews/react-bootstrap-table2#readme",
   "devDependencies": {
@@ -70,7 +70,7 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.2",
     "enzyme": "^3.11.0",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
+    "@cfaester/enzyme-adapter-react-18": "^0.8.0",
     "enzyme-to-json": "^3.6.2",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -91,7 +91,7 @@
     "jsdom": "^20.0.2",
     "jsdom-global": "^3.0.2",
     "lerna": "^6.3.0",
-    "react-test-renderer": "^17.0.2",
+    "react-test-renderer": "^18.2.0",
     "sass-loader": "^13.2.0",
     "sinon": "^14.0.2",
     "style-loader": "^3.3.1",
@@ -106,8 +106,8 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.56.1",
     "underscore": "^1.13.1"
   },
